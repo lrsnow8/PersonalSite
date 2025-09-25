@@ -1,7 +1,7 @@
 /* ========== Global Styles ========== */
 :root {
   --red: #e63946;
-  --yellow: #f1c40f;
+  --yellow: rgba(255, 247, 0, 1);
   --blue: #2980b9;
   --black: #000000;
   --white: #ffffff;
@@ -162,3 +162,4 @@ footer {
     flex-direction: column;
   }
 }
+
