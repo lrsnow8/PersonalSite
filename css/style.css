@@ -84,9 +84,10 @@ header {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  max-width: 120%;
-  max-height: 120%;
-  opacity: 0.4; /* Very subtle background */
+  max-width: 100%;
+  max-height: 100%;
+  object-fit:cover;
+  opacity: 0.2; /* Very subtle background */
   z-index: 0;    /* Behind text */
 }
 
@@ -177,6 +178,7 @@ footer {
     flex-direction: column;
   }
 }
+
 
 
 
