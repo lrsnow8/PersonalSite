@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Website | Luke Snow</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo"><a href="index.html">Luke Snow</a></div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html" class="active">Projects</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="project-detail" style="padding: 4rem 1rem; max-width: 900px; margin: 0 auto;">
+      <!-- Back to Projects Link -->
+      <div class="back-link" style="margin-bottom: 2rem;">
+        <a href="projects.html" class="btn secondary">← Back to Projects</a>
+      </div>
+
+      <!-- Project Header -->
+      <div class="project-header" style="text-align: center; margin-bottom: 3rem;">
+        <h1>Building My Website</h1>
+        <p class="project-subtitle">somehow harder and easier than I thought it would be</p>
+      </div>
+
+      <!-- Project Image -->
+      <div class="project-image" style="margin-bottom: 3rem; text-align: center;">
+        <img src="images/project1.png" alt="Project Screenshot" style="max-width: 100%; border: 2px solid #000; border-radius: 8px;">
+      </div>
+
+      <!-- Project Info Grid -->
+      <div class="project-info" style="display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; margin-bottom: 3rem;">
+        <!-- Project Details -->
+        <div class="project-details">
+          <h3>Project Overview</h3>
+          <p>As I enter into my junior year and begin the search for my next intership, a friend from home brought up that a personal website might be the best way for me to display the skills that I've leanred outside of the classroom. I had thought of this before and purchased this domain with my name, but I never got around to doing it. I tried tools like Loveable to generate one, but I found the watermarking to sort of ruin any appeal a personal website had for me. I also thought it would be a great way to test out how productively I can use EndeavorOS, the operating system I use on my laptop. I've never written anything in HTML or CSS before so I made sure to watch some youtube videos, then hopped on Vim and got to work.</p>
+
+          <h3>Technologies Used</h3>
+          <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>Vim</li>
+            <li>Claude</li>  
+          </ul>
+        </div>
+
+           <!-- Challenges and Solutions -->
+      <div class="project-challenges" style="margin-bottom: 3rem;">
+        <h3>Challenges & Solutions</h3>
+        <div class="challenge-item" style="margin-bottom: 2rem; padding: 1.5rem; background-color: #f9f9f9; border-left: 4px solid var(--blue); border-radius: 4px;">
+          <h4>Challenge 1</h4>
+          <p><strong>Problem:</strong> How will I host it?</p>
+          <p><strong>Solution:</strong> I did not at all want to deal with paying to host it, and I wanted to work directly on my text editor, vim. ChatGPT pointed me in GitHub Page's direction and I knew this was it instantly. Embarassingly I've never really maintained anything on GitHub, so I figured why not learn it all at once. This turned out perfect because I could stage, commit, and push updates to github from my terminal and have it reflect in the code nearly instantly!</p>
+        </div>
+        <div class="challenge-item" style="margin-bottom: 2rem; padding: 1.5rem; background-color: #f9f9f9; border-left: 4px solid var(--blue); border-radius: 4px;">
+          <h4>Challenge 2</h4>
+          <p><strong>Problem:</strong> Visuals are hard! I don't have a lot of experience to go off of here, and I didn't have a great way to work through the image and design positions iteratively without pushing to github evertime.</p>
+          <p><strong>Solution:</strong> It turns out there really is another use for inspect element besides messing with your friends! I might still not be the michealangelo of website design, maybe I am if you recognize the background of the home page, but the snowflakes around my last name don't look half bad. I just picked arbitrary locations on the page first, then adjusted the positions with inspect element which would update actively. All I had to do was hone in my desired location and edit it permenantly in the .html file in the project folder!</p>
+        </div>
+      </div>
+
+      <!-- Process and Conclusion -->
+      <div class="project-process" style="margin-bottom: 3rem;">
+        <h3>Process & Conclusion</h3>
+        <div class="process-content" style="padding: 1.5rem; background-color: #f9f9f9; border-radius: 8px;">
+          <p>In many ways like learning the structure of HTML and CSS, I thought this would be harder. But I thought the visuals would be easy and it was definitely my least favorite part. I love these kinds of projects because I had absolutely no idea what this would look like at the end, I on the fly chose Bahaus style colors inspired by "Composition with Red, Blue, and Yellow", and while perhaps it looks a little elementary I really like it. In terms of the setup used to write it all, I used claude code for the scaffolding when I realized how long it would take to write out manually. Maybe that makes me a weak man, but it improved my pacing so much I would never want to do this manually. For the most part, Vim and GitHub really are a match made in heaven. I'm sure the gui is pretty handy, but the command line is like a second nature now.</p>
+
+          <p>In the end, I've found this process was not only really informative and hopefully makes me look badass to whoever is readying this, but also turns out to be really fun. Even if no one is looking at this stuff, having a place to dispay what I do is gonna be a great way to keep myself accountable and finish what I start. If you read this whole thing, give me a shout and tell me what you think!</p>
+        </div>
+      </div>
+
+      <!-- Next/Previous Projects Navigation -->
+      <div class="project-navigation" style="display: flex; justify-content: space-between; padding-top: 2rem; border-top: 2px solid #000;">
+        <div class="prev-project">
+          <a href="#" class="btn secondary">← Previous Project</a>
+        </div>
+        <div class="next-project">
+          <a href="#" class="btn secondary">Next Project →</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>©2025 Luke Snow</p>
+  </footer>
+</body>
+</html>

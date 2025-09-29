@@ -122,19 +122,19 @@ header {
 }
 
 .snowflake-1 {
-  top: 35px;
-  right: 0px;
+  top: 43px;
+  right: 65px;
   transform: rotate(-15deg);
 }
 
 .snowflake-2 {
   top: 20px;
-  right: -30px;
+  right: -15px;
   transform: rotate(25deg);
 }
 
 .snowflake-3 {
-  top: -10px;
+  top: -1px;
   left: 50%;
   transform: translateX(-50%) rotate(10deg);
 }
@@ -153,7 +153,7 @@ header {
 }
 
 .btn {
-  padding: .15rem;
+  padding: .35rem;
   text-decoration: none;
   font-weight: 600;
   border-radius: 4px;
