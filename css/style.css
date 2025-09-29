@@ -104,6 +104,39 @@ header {
 
 .hero .highlight {
   color: var(--blue);
+  position: relative;
+}
+
+/* ========== Snowflake Decorations ========== */
+.snowflake {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  opacity: 0.7;
+  z-index: 1;
+}
+
+.snowflake-behind {
+  z-index: -1;
+  opacity: 0.3;
+}
+
+.snowflake-1 {
+  top: -15px;
+  left: -25px;
+  transform: rotate(-15deg);
+}
+
+.snowflake-2 {
+  top: 10px;
+  right: -30px;
+  transform: rotate(25deg);
+}
+
+.snowflake-3 {
+  top: -10px;
+  left: 50%;
+  transform: translateX(-50%) rotate(10deg);
 }
 
 .hero p {
