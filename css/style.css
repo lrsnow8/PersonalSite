@@ -204,6 +204,86 @@ footer {
   background: var(--yellow);
 }
 
+/* ========== About Page - Mondrian Background ========== */
+.about {
+  position: relative;
+  overflow: hidden;
+}
+
+.about::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: 0.1;
+  background:
+    linear-gradient(90deg, transparent 0%, transparent 20%, var(--black) 20%, var(--black) 22%, transparent 22%, transparent 45%, var(--black) 45%, var(--black) 47%, transparent 47%, transparent 75%, var(--black) 75%, var(--black) 77%, transparent 77%),
+    linear-gradient(0deg, transparent 0%, transparent 30%, var(--black) 30%, var(--black) 32%, transparent 32%, transparent 60%, var(--black) 60%, var(--black) 62%, transparent 62%, transparent 85%, var(--black) 85%, var(--black) 87%, transparent 87%),
+    linear-gradient(var(--white));
+}
+
+.mondrian-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -2;
+  opacity: 0.08;
+}
+
+.mondrian-rect {
+  position: absolute;
+  border: 2px solid var(--black);
+}
+
+.mondrian-red {
+  background: var(--red);
+  top: 10%;
+  left: 5%;
+  width: 25%;
+  height: 35%;
+}
+
+.mondrian-blue {
+  background: var(--blue);
+  top: 15%;
+  right: 8%;
+  width: 20%;
+  height: 25%;
+}
+
+.mondrian-yellow {
+  background: var(--yellow);
+  bottom: 20%;
+  left: 15%;
+  width: 30%;
+  height: 20%;
+}
+
+.mondrian-white-1 {
+  background: var(--white);
+  top: 5%;
+  left: 35%;
+  width: 40%;
+  height: 40%;
+  border: 1px solid var(--black);
+  opacity: 0.6;
+}
+
+.mondrian-white-2 {
+  background: var(--white);
+  bottom: 10%;
+  right: 5%;
+  width: 35%;
+  height: 30%;
+  border: 1px solid var(--black);
+  opacity: 0.6;
+}
+
 /* ========== Responsive ========== */
 @media (max-width: 768px) {
   .nav-links {
