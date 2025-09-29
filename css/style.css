@@ -120,7 +120,7 @@ header {
 }
 
 .btn {
-  padding: .1rem;
+  padding: .15rem;
   text-decoration: none;
   font-weight: 600;
   border-radius: 4px;
@@ -147,12 +147,26 @@ header {
   color: var(--white);
 }
 
+/* ========== Main Section Styles ========== */
+main {
+  min-height: calc(100vh - 80px - 60px); /* Subtract approximate header and footer heights */
+  display: flex;
+  flex-direction: column;
+}
+
+main section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 /* ========== Footer ========== */
 footer {
   text-align: center;
   padding: 1rem;
   border-top: 3px solid var(--black);
-  margin-top: 3rem;
+  margin-top: auto;
   font-size: 0.9rem;
   background: var(--yellow);
 }
