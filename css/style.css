@@ -129,7 +129,7 @@ header {
 
 .snowflake-2 {
   top: 20px;
-  right: -15px;
+  right: 0px;
   transform: rotate(25deg);
 }
 
