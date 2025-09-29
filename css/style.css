@@ -117,18 +117,18 @@ header {
 }
 
 .snowflake-behind {
-  z-index: -1;
+  z-index: 0;
   opacity: 0.3;
 }
 
 .snowflake-1 {
   top: -15px;
-  left: -25px;
+  right: -15px;
   transform: rotate(-15deg);
 }
 
 .snowflake-2 {
-  top: 10px;
+  top: 20px;
   right: -30px;
   transform: rotate(25deg);
 }
