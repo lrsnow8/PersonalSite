@@ -234,6 +234,26 @@ footer {
     right: 10px;
     border: 2px solid var(--black);
     padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 9999;
+  }
+
+  .nav-links a {
+    color: var(--black) !important;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #eee;
+  }
+
+  .nav-links a:last-child {
+    border-bottom: none;
+  }
+
+  .nav-links a:hover,
+  .nav-links a.active {
+    color: var(--red) !important;
   }
 
   .nav-links.show {
